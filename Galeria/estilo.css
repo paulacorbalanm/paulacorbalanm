@@ -1,20 +1,12 @@
-div.imagen {
-  margin: 5px;
-  float: left;
-  width: 180px;
-}
-
-div.imagen:hover {
-  background-color: grey;
-
-}
-
-div.imagen img {
+.contenedor {
+  display: flex;
+  max-width: 1200px;
   width: 100%;
-  height: auto;
+  flex-wrap: wrap;
 }
 
-div.desc {
-  padding: 15px;
-  text-align: center;
+img {
+  width: 300px;
+  height: auto;
+  padding: 25px;
 }
