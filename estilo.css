@@ -1,16 +1,38 @@
 body {
 	margin: 0;
 	padding: 0;
+  font-family: 'Neue Haas Grotesk Text', sans-serif;
 }
 
 header {
-  background: lightblue;
   padding: 20px;
-  font-family: 'Raleway';
   text-align: center;
-  font-weight: bold;
+}
+
+h1 {
+  font-size: 50px;
+  text-transform: uppercase;
 }
 
 main {
 	padding: 0 50px;
+}
+
+.btn {
+  background-image: linear-gradient(to right, #16A085 0%, #F4D03F  51%, #16A085  100%);
+  padding: 15px 45px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;          
+  box-shadow: 0 0 20px #eee;
+  border-radius: 25px;
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
+
+.btn:hover {
+  background-position: right center;
+  color: #fff;
 }
