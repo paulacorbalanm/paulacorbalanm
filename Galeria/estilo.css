@@ -1,0 +1,52 @@
+body {
+  background-image: linear-gradient(45deg, #4e4466, #526d85, #c9e8fd);
+  margin: 0;
+  font-family: 'Neue Haas Grotesk Text', sans-serif;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 100px;
+  color: #e9e6e1;
+  letter-spacing: -6px;
+  line-height: 80px;
+}
+
+h4 {
+  font-weight: lighter;
+}
+
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 100px;
+}
+
+.contenedor img {
+  flex-wrap: wrap;
+  margin: 10px 0;
+  filter: grayscale(100%);
+  object-fit: cover;
+  width: 350px;
+  height: 350px;
+  border: 10px;
+  border-style: solid;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  border-color: grey;
+}
+
+#lavender:hover {
+  border-color: lavender;
+}
+
+.contenedor img:hover {
+  filter: grayscale(0%);
+}
