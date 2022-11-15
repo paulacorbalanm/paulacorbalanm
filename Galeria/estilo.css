@@ -4,7 +4,6 @@ body {
 }
 
 header {
-  background: lightcoral;
   padding: 20px;
   font-family: 'Raleway';
   text-align: center;
@@ -31,7 +30,7 @@ h4 {
 .contenedor img {
   flex-wrap: wrap;
   margin: 10px 0;
-  filter: opacity(50%);
+  filter: grayscale(100%);
   object-fit: cover;
   width: 350px;
   height: 350px;
@@ -44,5 +43,5 @@ h4 {
 }
 
 .contenedor img:hover {
-  filter: opacity(100%);
+  filter: grayscale(0%);
 }

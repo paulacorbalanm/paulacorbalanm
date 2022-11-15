@@ -4,5 +4,13 @@ body {
 }
 
 header {
-	background: skyblue;
+  background: lightblue;
+  padding: 20px;
+  font-family: 'Raleway';
+  text-align: center;
+  font-weight: bold;
+}
+
+main {
+	padding: 0 50px;
 }
