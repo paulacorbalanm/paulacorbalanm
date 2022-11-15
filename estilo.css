@@ -79,10 +79,11 @@ main p {
 .gato .abiertos {
   display: none;
   position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 99;
-    }
-    .gato:hover .abiertos {
-        display: inline;
-    }
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.gato:hover .abiertos {
+  display: inline;
+}
