@@ -38,14 +38,31 @@ h4 {
   height: 350px;
   border: 10px;
   border-style: solid;
+  border-image-slice: 1;
   border-radius: 20px;
   margin-bottom: 50px;
   border-color: grey;
 }
 
 #lavender:hover {
-  border-color: lavender;
+  border-color: #b6acdf;
 }
+
+#maroon:hover {
+  border-color: #d86579;
+}
+
+#antihero:hover {
+  border-color: #4d84c5;
+}
+
+#sotb:hover {
+  border-color: #cd81b1;
+}
+
+#portada:hover {
+  border-color: #739db1;
+} 
 
 .contenedor img:hover {
   filter: grayscale(0%);
