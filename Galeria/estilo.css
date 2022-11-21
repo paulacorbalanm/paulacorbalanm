@@ -47,7 +47,7 @@ main {
 .contenedor img {
   flex-wrap: wrap;
   margin: 10px 0;
-  filter: grayscale(100%);
+  filter: grayscale(0%);
   object-fit: cover;
   width: 350px;
   height: 350px;
@@ -56,45 +56,79 @@ main {
   border-image-slice: 1;
   border-radius: 20px;
   margin-bottom: 50px;
-  border-color: grey;
-}
+  display: block;
 
-#lavender:hover {
-  border-color: #b6acdf;
-}
-
-#maroon:hover {
-  border-color: #d86579;
-}
-
-#antihero:hover {
-  border-color: #4d84c5;
-}
-
-#sotb:hover {
-  border-color: #cd81b1;
-}
-
-#portada:hover {
-  border-color: #739db1;
-} 
-
-#yoyok:hover {
-  border-color: #ee9c58;
-}
-
-#antihero2:hover {
-  border-color: #4e84a6;
-}
-
-#sweet:hover {
-  border-color: #e2829f;
-} 
-
-#war:hover {
-  border-color: #e3af47;
 }
 
 .contenedor img:hover {
   filter: grayscale(0%);
 }
+
+#lavender {border-color: #b6acdf;}
+#maroon {border-color: #d86579;}
+#antihero {border-color: #4d84c5;}
+#sotb {border-color: #cd81b1;}
+#portada {border-color: #739db1;} 
+#yoyok {border-color: #ee9c58;}
+#antihero2 {border-color: #4e84a6;}
+#sweet {border-color: #e2829f;} 
+#war {border-color: #e3af47;}
+
+
+.cortinilla {
+  position: relative;
+}
+
+.cortinilla:hover img{
+  filter: grayscale(100%);
+}
+
+.cortinilla:hover .textico {
+  opacity: 100%;
+}
+
+.textico {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 350px;
+  height: 350px;
+  opacity: 0;
+  border: 10px;
+  border-style: solid;
+  border-image-slice: 1;
+  border-radius: 20px;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  padding: 5px 15px;
+  border-radius: 20px;
+}
+
+#tl {border-color: #b6acdf;}
+#t1 {background-color: #b6acdf;}
+#tm {border-color: #d86579;}
+#t2 {background-color: #d86579;}
+#tah {border-color: #4d84c5;}
+#t3 {background-color: #4d84c5;}
+#tsotb {border-color: #cd81b1;}
+#t4 {background-color: #cd81b1;}
+#tp {border-color: #739db1;}
+#tportada {background-color: #739db1;}
+#tyoyok {border-color: #ee9c58;}
+#t5 {background-color: #ee9c58;}
+#tah2 {border-color: #4e84a6;}
+#t32 {background-color: #4e84a6;}
+#tsn {border-color: #e2829f;}
+#t12 {background-color: #e2829f;}
+#tw {border-color: #e3af47;}
+#t14 {background-color: #e3af47;}
