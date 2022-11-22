@@ -1,0 +1,19 @@
+body {
+	margin: 0;
+}
+
+img {
+	max-height: auto;
+	width: 100%;
+}
+
+.barrasup {
+	background-color: #003245;
+	margin: 0;
+	padding: 1%;
+}
+
+.pais {
+	width: 130px;
+	padding-left: 2.5%;
+}

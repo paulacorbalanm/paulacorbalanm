@@ -1,0 +1,74 @@
+body {
+    font-family: Helvetica Neue, sans-serif;
+    margin: 0;
+    font-weight: 100;
+}
+
+h1 {
+    font-weight: lighter;
+    font-size: 65px;
+}
+
+h5 {
+    color: gray;
+    font-size: 18pt;
+    font-weight: lighter;
+}
+
+p {
+    position: relative;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    font-size: 35px;
+    line-height: 60px;
+}
+
+img {  
+    max-width: 100%;  
+    height: auto;  
+} 
+
+.creditos {
+    list-style: none;
+    padding-left: 0;
+    color: gray;
+    font-size: 18pt;
+    line-height: 25pt;
+    color: gray;
+}
+
+.lista {
+    font-size: 35px;
+    line-height: 60px;
+    color: white;
+    display: inline; 
+}
+
+footer {
+    background-color: black;
+    padding: 15%;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+header {
+    font-size: 35px;
+}
+
+.textico {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+a.linq:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+a.tacha:hover {
+    text-decoration: line-through;
+}
