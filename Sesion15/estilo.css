@@ -1,0 +1,158 @@
+body {
+	background-image: url("imgs/fondo.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	padding: 0;
+	margin: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+	width: 80%;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: white;
+}
+
+header img {
+	height: 100px;
+}
+
+header nav div {
+	opacity: 75%;
+}
+
+header nav div span {
+	text-transform: uppercase;
+	padding-right: 20px;
+	font-size: 18px;
+}
+
+header nav div span i {
+	padding: 10px;
+}
+
+#cierre {
+	padding-right: 0;
+}
+
+main {
+	margin-top: 40px;
+	width: 80%;
+	height: 640px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+
+main section {
+	width: 45%;
+}
+
+h1 {
+	font-size: 35px;
+	line-height: 35px;
+}
+
+main section p {
+	font-size: 18px;
+}
+
+#info {
+	color: #5ea8e8;
+}
+
+#mayor {
+	font-size: 10px;
+	padding-left: 10px;
+}
+
+#boton {
+	color: white;
+  	border-radius: 5px;
+  	background-color: #5ea8e8;
+  	padding: 10px;
+  	width: 150px;
+  	text-align: center;
+}
+
+h3 {
+	font-size: 20px;
+	margin: 0;
+}
+
+.line{
+    width: 100%;
+    height: 10px;
+    border-bottom: 2px solid black;
+}
+
+#maria {
+	font-size: 12px;
+	padding-left: 10px;
+}
+
+#abajo {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+#abajo div p img {
+	height: 35px;
+	vertical-align: middle;
+	padding: 0 5px;
+}
+
+.caja {
+	height: 35px;
+  	width: 35px;
+  	margin-bottom: 15px;
+  	border: 0.5px solid black;
+  	border-top: 1px solid black;
+  	border-bottom: 1px solid black;
+  	float: left;
+}
+
+.oscura {background-color: #410a13; border-left: 1px solid black;}
+.magenta {background-color: #a41d43;}
+.fucsia {background-color: #f2338c;}
+.rosa{background-color: #d979a8;}
+.blanca {background-color: #d7d5d9; border-right: 1px solid black}
+
+footer {
+	background-color: #222123;
+}
+
+footer div {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 25px;
+}
+
+footer div span{
+	padding-right: 20px;
+	color: #cfd0cf;
+}
+
+#oferta {
+	color: #b89817;
+}
+
+
+
+
+
+
+
+
+
+
