@@ -1,0 +1,134 @@
+body {
+  background-image: linear-gradient(45deg, #4e4466, #526d85, #c9e8fd);
+  margin: 0;
+  font-family: 'Neue Haas Grotesk Text', sans-serif;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: #e9e6e1;
+}
+
+h1 {
+  font-size: 100px;
+  letter-spacing: -6px;
+  line-height: 80px;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-weight: lighter;
+  margin-bottom: 50px;
+}
+
+h3 a {
+  text-decoration: none;
+  color: #526d85;
+}
+
+h3 a:hover {
+  color: #4e4466;
+}
+
+main {
+  margin-bottom: 100px;
+}
+
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 100px;
+}
+
+.contenedor img {
+  flex-wrap: wrap;
+  margin: 10px 0;
+  filter: grayscale(0%);
+  object-fit: cover;
+  width: 350px;
+  height: 350px;
+  border: 10px;
+  border-style: solid;
+  border-image-slice: 1;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  display: block;
+
+}
+
+.contenedor img:hover {
+  filter: grayscale(0%);
+}
+
+#lavender {border-color: #b6acdf;}
+#maroon {border-color: #d86579;}
+#antihero {border-color: #4d84c5;}
+#sotb {border-color: #cd81b1;}
+#portada {border-color: #739db1;} 
+#yoyok {border-color: #ee9c58;}
+#antihero2 {border-color: #4e84a6;}
+#sweet {border-color: #e2829f;} 
+#war {border-color: #e3af47;}
+
+
+.cortinilla {
+  position: relative;
+}
+
+.cortinilla:hover img{
+  filter: grayscale(100%);
+}
+
+.cortinilla:hover .textico {
+  opacity: 100%;
+}
+
+.textico {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 350px;
+  height: 350px;
+  opacity: 0;
+  border: 10px;
+  border-style: solid;
+  border-image-slice: 1;
+  border-radius: 20px;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  padding: 5px 15px;
+  border-radius: 20px;
+}
+
+#tl {border-color: #b6acdf;}
+#t1 {background-color: #b6acdf;}
+#tm {border-color: #d86579;}
+#t2 {background-color: #d86579;}
+#tah {border-color: #4d84c5;}
+#t3 {background-color: #4d84c5;}
+#tsotb {border-color: #cd81b1;}
+#t4 {background-color: #cd81b1;}
+#tp {border-color: #739db1;}
+#tportada {background-color: #739db1;}
+#tyoyok {border-color: #ee9c58;}
+#t5 {background-color: #ee9c58;}
+#tah2 {border-color: #4e84a6;}
+#t32 {background-color: #4e84a6;}
+#tsn {border-color: #e2829f;}
+#t12 {background-color: #e2829f;}
+#tw {border-color: #e3af47;}
+#t14 {background-color: #e3af47;}
