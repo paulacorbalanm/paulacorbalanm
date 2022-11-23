@@ -131,11 +131,11 @@ footer {
 	background-color: #222123;
 }
 
-footer div {
+#anuncio {
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 25px;
+	padding: 20px;
 }
 
 footer div span{
@@ -143,11 +143,56 @@ footer div span{
 	color: #cfd0cf;
 }
 
+footer div div div {
+	padding: 0;
+}
+
 #oferta {
 	color: #b89817;
 }
 
+.linea{
+    width: 100%;
+    border-bottom: 1px solid #6c6c6c;
+}
 
+.enlaces {
+	background-color: #2b2729;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 25px 60px;
+	color: #cfd0cf;
+}
+
+.enlaces img {
+	height: 40px;
+}
+
+.contenido {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.links {
+	display: flex;
+  	align-items: center;
+  	flex-direction: row;
+	width: 22%;
+}
+
+.links div {
+	padding-left: 15px;
+}
+
+.links div p {
+	margin: 5px;
+}
+
+.extra {
+	font-size: 12px;
+}
 
 
 
