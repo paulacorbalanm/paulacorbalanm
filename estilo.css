@@ -1,90 +1,122 @@
 body {
-	margin: 0;
 	padding: 0;
-  font-family: "Helvetica Neue",sans-serif;
-  background-color: #b08c31;
+	margin: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+  background-color: #e9e3d7;
+  color: black;
+	position: relative;
   cursor: default;
-  text-align: center;
-  color: white;
 }
 
-h1 {
-  font-size: 60px;
-  font-family: 'Taygiacs', sans-serif;
-  font-weight: 400;
-  line-height: 85px;
-  padding: 50px;
-  padding-bottom: 100px;
-  padding-top: 25px;
-}
-
-h3 {
-  font-size: 30px;
-  margin-bottom: 0;
+header {
+	width: 90%;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 15px;
 }
 
 main {
-	padding: 0 50px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-main a {
-  text-decoration: none;
+main img {
+  width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+  display: block;
+  padding-bottom: 25px;
 }
 
-main p {
-  margin-top: 5px;
+main div a {
+	text-decoration: none;
 }
 
-/*.flores {
-  width: 250px;
-  height: 250px;
+.linq{
+	margin: 8px -25px 0px -25px;
+	padding: 10px 25px;
+	border-radius: 15px;
+	text-decoration: none;
+	color: black;
 }
 
-.flores:hover {
-  animation-name: spin;
-  animation-duration: 5000ms;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear; 
-  cursor: pointer;
+.linq:hover {
+	text-decoration: none;
+	color: black;
+	background-color:#c9c1b5;
 }
 
-@keyframes spin {
-    from {
-        transform:rotate(0deg);
-    }
-    to {
-        transform:rotate(360deg);
-    }
+.busqueda {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 25px 50px;
+	font-size: 20px;
+	border: 2px;
+	border-style: solid;
+	border-radius: 25px;
+	border-color: black;
+}
+
+.busco {
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/*.sesion {
+	font-weight: bold;
 }*/
 
-.prueba {
-  width: 25%;
-  text-align: center;
-  position: relative;
-  padding-bottom: 100px;
+.line{
+    width: 100%;
+    border-bottom: 2px solid black;
 }
 
-.gato {
-  position: relative;
-  display: inline-block;
+.boton {
+	width: 155px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	padding: 10px;
+	border-radius: 25px;
+	border: 2px;
+	border-style: solid;
+	border-color: black;
+	margin-bottom: 50px;
 }
 
-.gato img {
-  height: 200px;
+.boton:hover {
+	background-color: black;
+	color: #e9e3d7;
 }
 
-.gato .abiertos {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 99;
+
+footer {
+	bottom: 0;
+  width: 90%;
+  margin-left: auto;
+	margin-right: auto;
+  display: flex;
+	justify-content: space-between;
+	align-items: center;
+  padding-bottom: 15px;
 }
 
-.gato:hover .abiertos {
-  display: inline;
+footer div a {
+  text-decoration: none;
+  color: black;
+}
+
+footer div a p:hover {
+  color: #c72e26;
 }
