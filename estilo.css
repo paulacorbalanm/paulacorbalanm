@@ -81,6 +81,11 @@ main div a {
     border-bottom: 2px solid black;
 }
 
+main a {
+	text-decoration: none;
+	color: black;
+}
+
 .boton {
 	width: 155px;
 	text-align: center;
@@ -95,12 +100,7 @@ main div a {
 	margin-bottom: 50px;
 }
 
-.boton a {
-	text-decoration: none;
-	color: black;
-}
-
-.boton a:hover {
+.boton:hover {
 	background-color: black;
 	color: #e9e3d7;
 }
