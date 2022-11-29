@@ -95,6 +95,11 @@ main div a {
 	margin-bottom: 50px;
 }
 
+.boton a {
+	text-decoration: none;
+	color: black;
+}
+
 .boton:hover {
 	background-color: black;
 	color: #e9e3d7;
