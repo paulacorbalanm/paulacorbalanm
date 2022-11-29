@@ -100,7 +100,7 @@ main div a {
 	color: black;
 }
 
-.boton:hover {
+.boton a:hover {
 	background-color: black;
 	color: #e9e3d7;
 }
