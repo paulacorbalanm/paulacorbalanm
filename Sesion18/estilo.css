@@ -9,6 +9,7 @@ header {
 	align-items: center;
     font-size: 25px;
     margin: 50px auto;
+    font-family: Georgia,Times,Times New Roman,serif; 
 }
 
 header div span i {
