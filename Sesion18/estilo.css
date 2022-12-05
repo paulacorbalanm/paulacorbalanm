@@ -13,7 +13,8 @@ header {
 }
 
 header div span i {
-    color: #edd024;
+    /*color: #edd024;*/
+    color: black;
 }
 
 .fila {
@@ -32,7 +33,7 @@ header div span i {
 	border: 1px;
 	border-style: solid;
 	border-radius: 25px;
-	border-color: black;
+	border-color: #ecd021;
     text-align: center;
     height: 260px;
     background-color: white;
@@ -42,11 +43,11 @@ header div span i {
     text-align: justify;
 }*/
 
-#uno {font-family: Helvetica Neue,Helvetica,Arial,sans-serif; }
-#dos {font-family: Arial,Helvetica Neue,Helvetica,sans-serif; }
-#tres {font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif; }
-#cuatro {font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; }
-#cinco {font-family: Geneva,Tahoma,Verdana,sans-serif; }
-#seis {	font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; }
+#uno {font-family: "Autowide", sans-serif; }
+#dos {font-family: "Source Sans Pro", sans-serif; }
+#tres {font-family: "Arimo", sans-serif; }
+#cuatro {font-family: "Roboto", sans-serif; }
+#cinco {font-family: "Note Sans", sans-serif; }
+#seis {	font-family: "Rubik", sans-serif; }
 
 
