@@ -1,0 +1,24 @@
+.col {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    height: 10vh;
+}
+
+.resto {
+    height: 80vh;
+}
+
+.pie {
+    height: 10vh;
+}
+
+.nav {
+    height: 90vh;
+}
+
+p {
+    padding: 0px;
+}
