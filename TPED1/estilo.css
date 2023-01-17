@@ -8,6 +8,19 @@ body {
   	cursor: default;
 }
 
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.vuelta:hover {
+	text-decoration: underline;
+}
+
+.fa-arrow-rotate-left {
+	padding-right: 5px;
+}
+
 header {
 	width: 90%;
 	height: 100px;
