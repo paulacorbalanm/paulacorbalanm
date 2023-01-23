@@ -107,3 +107,14 @@ footer {
 footer a {
     text-decoration: none;
 }
+
+.yop {
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.fit-image{
+    width: 100%;
+    object-fit: cover;
+    height: 300px; /* only if you want fixed height */
+    }
