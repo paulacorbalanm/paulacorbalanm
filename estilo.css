@@ -50,6 +50,8 @@ header a {
     overflow: hidden;
     font-size: 30px;
     height: 55px;
+    background-color: #ecd021;
+    padding-top: 2px;
 }
 
 .marquee {
