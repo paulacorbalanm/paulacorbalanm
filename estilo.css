@@ -118,3 +118,7 @@ footer a {
     object-fit: cover;
     height: 300px;
 }
+
+.modal-backdrop {
+    background-color: transparent;
+ }
