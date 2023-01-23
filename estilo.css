@@ -15,6 +15,14 @@ header a {
     text-decoration: none;
 }
 
+.link{
+    color: #f0f0f0 !important;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
 .navega {
     font-size: 7vw;
     overflow: auto;
