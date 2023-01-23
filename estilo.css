@@ -1,25 +1,27 @@
 body {
     overflow-x: hidden;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Neue Haas Grotesk Text', sans-serif !important;
 }
 
 header {
     height: 3rem;
     padding: 0.7rem;
-    background-color: black;
 }
 
 header a {
     text-decoration: none;
-    color: beige;
 }
 
 .navega {
     font-size: 7vw;
     overflow: auto;
     text-align: center;
-    color: black;
     margin-bottom: 0;
     text-decoration: none;
+    color: black;
 }
 
 #active {
@@ -27,7 +29,7 @@ header a {
 }
 
 #active:hover {
-    text-decoration: underline;  
+    text-decoration: underline;
 }
 
 .navbar-nav:hover {
@@ -35,10 +37,65 @@ header a {
     text-decoration: underline;
 }
 
-.opciones {
-    background-color: #ecd021;
+.wrapper {
+    max-width: 100%;
+    overflow: hidden;
+    font-size: 30px;
+    height: 55px;
 }
 
-.trabajo > div {
-    background: lightgrey;
+.marquee {
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    animation: marquee 12s linear infinite;
+}
+
+.marquee p {
+    display: inline-block;
+}
+
+.favs {
+    text-transform: uppercase;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(-25%, 0, 0);
+    }
+}
+
+.foto1 {
+    border: 5px solid black;
+}
+
+.foto2 {
+    display: none;
+    border: 5px solid black;
+}
+
+.previa:hover .foto1 {
+    display: none;
+}
+
+.previa:hover .foto2 {
+    display: block;
+}
+
+.text-center {
+    padding-top: 5px;
+    line-height: 15px;
+}
+
+footer {
+    height: 3.2rem;
+    padding: 0.7rem;
+}
+
+footer a {
+    text-decoration: none;
 }
